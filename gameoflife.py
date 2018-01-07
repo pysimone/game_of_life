@@ -64,8 +64,10 @@ class GameOfLife:
         return s
 
 gol = GameOfLife()
+print("Glider")
 print(gol)
-for c in range(4):
+for c in range(1,5):
+   print("Generation",c)
    gol.next_generation()
    print(gol)
 
